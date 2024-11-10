@@ -1,0 +1,194 @@
+<!-- Login Button -->
+
+
+<!-- Login Modal -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <p>Hello! Welcome to your account</p>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Type your username">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Type your password">
+            
+            <div>
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </div>
+            
+            <button type="submit">Login Account</button>
+        </form>
+        <p>Or Login Using</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+<style>
+  /* General Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Header and Welcome Text */
+.modal-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modal-content p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.modal-content label {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Checkbox and Label */
+.modal-content input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.modal-content label[for="rememberMe"] {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Login Button */
+.modal-content button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.modal-content button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password Link */
+.modal-content .forgot-password {
+    text-align: right;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.modal-content .forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Section */
+.social-icons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    font-size: 18px;
+    color: #555;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Social Media Icons Color */
+.social-icons .facebook { color: #3b5998; }
+.social-icons .twitter { color: #1da1f2; }
+.social-icons .instagram { color: #e4405f; }
+.social-icons .linkedin { color: #0077b5; }
+
+</style>
+<script>
+    // Get the modal, button, and close span
+  var modal = document.getElementById("loginModal");
+  var btn = document.getElementById("loginBtn");
+  var span = document.getElementsByClassName("close")[0];
+  
+  // Open the modal when the button is clicked
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+  
+  // Close the modal when the close (x) is clicked
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  
+  // Close the modal when clicking outside the modal content
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+    
+  </script>

@@ -1,0 +1,2220 @@
+
+<!-- Navbar -->
+<!-- Template CSS Files -->
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/select2.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/line-awesome.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/owl.carousel.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/daterangepicker.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/animate.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/animated-headline.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/jquery-ui.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/flag-icon.min.css">
+<link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/style.css">
+<!-- ... other CSS files ... -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<div class="navbar">
+
+    <div class="navdiv">
+        <div class="logo">
+            <img src="logo.png.png" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Hotel</a></li>
+            <li><a href="./carlatest.html">Cars</a></li>
+            <li><a href="./flightlatest.html">Flights</a></li>
+            <li><a href="">Bundle+Save</a></li>
+            <li><a href="">Cruises</a></li>
+            <li><a href="">Experiences</a></li>
+        </ul>
+        <button class="signin-btn"><a href="#">Sign In</a></button>
+    </div>
+</div>
+
+<!-- Hero Section with Tabbed Forms -->
+<header class="hero-section">
+   
+
+    <div class="content">
+     
+
+
+        <!-- Form Container -->
+        <div class="form-container">
+          
+        
+
+
+<div class="container">
+    <!-- First Line: Tabs -->
+  
+
+    <div class="search-box">
+        <div class="input-group">
+            <i class="fas fa-map-marker-alt icon"></i>
+            <input type="text" placeholder="Pickup Location">
+        </div>
+    </div>
+
+    <div class="date-guest-line">
+        <!-- Pickup Date with Label Inside -->
+        <div class="date-container" style="position: relative; width: 200px;">
+            <label for="pickup-date" class="date-label" style="position: absolute; color: #130c0c; left: 20px;">Pickup Date</label>
+            
+            <input type="date" id="pickup-date" style="width: 100%; border-radius: 5px; border: 2px solid #e5e5e5; height: 50px; padding: 10px 10px 10px 30px;margin-top: 17px;">
+        </div>
+    
+        <!-- Drop-off Date with Label Inside -->
+        <div class="date-container" style="position: relative; width: 200px;">
+            <label for="dropoff-date" class="date-label" style="position: absolute; color: #130c0c; left: 20px;">Drop-off Date</label>
+          
+            <input type="date" id="dropoff-date" style="width: 100%; border-radius: 5px; border: 2px solid #e5e5e5; height: 50px; padding: 10px 10px 10px 30px;margin-top: 18px;">
+        </div>
+    
+        <!-- Pickup Time Dropdown -->
+        <div class="time-container" style="position: relative; width: 120px; margin-left: 10px;margin-top: 2%;">
+            <label for="pickup-time" class="time-label" style="position: absolute; color: #130c0c; left: 10px; top: -18px; font-size: 15px;">Pickup Time</label>
+            <select id="pickup-time" style="width: 100%; height: 50px; border-radius: 5px; border: 2px solid #e5e5e5; padding: 10px; font-size: 14px;">
+                <option value="08:00">08:00 AM</option>
+                <option value="09:00">09:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+                <!-- Add more time options as needed -->
+            </select>
+        </div>
+    
+        <!-- Drop-off Time Dropdown -->
+        <div class="time-container" style="position: relative; width: 120px; margin-left: 10px;margin-top: 2%;">
+            <label for="dropoff-time" class="time-label" style="position: absolute; color: #130c0c; left: 10px; top: -18px; font-size: 15px;">Drop-off Time</label>
+            <select id="dropoff-time" style="width: 100%; height: 50px; border-radius: 5px; border: 2px solid #e5e5e5; padding: 10px; font-size: 14px;">
+                <option value="08:00">08:00 AM</option>
+                <option value="09:00">09:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+                <!-- Add more time options as needed -->
+            </select>
+        </div>
+    </div>
+
+    <!-- Car type dropdown -->
+   
+    <!-- Find Car button -->
+    <div class="bundle-find-line">
+        
+            <div class="bundle-options">
+                <label class="bundle-label"><i class="fas fa-dollar-sign icon"></i> Bundle + Save</label>
+                <input type="checkbox"> Add a car
+                <input type="checkbox"> Add a flight
+            </div>
+            <button class="find-button"onclick="document.location='./carpage2.html'"><i class="fas fa-search"></i> Find Your Car</button>
+        </div>
+        <p class="note">Book a hotel with free cancellation for flexibility</p>
+        <hr class="divider">
+        <p class="offer">Book all of your hotels at once and save up to $625</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Car Form -->
+                <div class="car-form form-section" >
+                    <!-- Car pickup location field -->
+                    <div class="search-box">
+                        <div class="input-group">
+                            <i class="fas fa-map-marker-alt icon"></i>
+                            <input type="text" placeholder="Pickup Location">
+                        </div>
+                    </div>
+                    <!-- Pickup and Drop-off dates -->
+                
+                    <div class="date-guest-line">
+                        <!-- Pickup Date with Label Inside -->
+                        <div class="date-container" style="position: relative; width: 200px;">
+                            <label for="pickup-date" class="date-label" style="position: absolute; color: #130c0c; left: 20px;">Pickup Date</label>
+                            
+                            <input type="date" id="pickup-date" style="width: 100%; border-radius: 5px; border: 2px solid #e5e5e5; height: 50px; padding: 10px 10px 10px 30px;margin-top: 17px;">
+                        </div>
+                    
+                        <!-- Drop-off Date with Label Inside -->
+                        <div class="date-container" style="position: relative; width: 200px;">
+                            <label for="dropoff-date" class="date-label" style="position: absolute; color: #130c0c; left: 20px;">Drop-off Date</label>
+                          
+                            <input type="date" id="dropoff-date" style="width: 100%; border-radius: 5px; border: 2px solid #e5e5e5; height: 50px; padding: 10px 10px 10px 30px;margin-top: 18px;">
+                        </div>
+                    
+                        <!-- Pickup Time Dropdown -->
+                        <div class="time-container" style="position: relative; width: 120px; margin-left: 10px;margin-top: 2%;">
+                            <label for="pickup-time" class="time-label" style="position: absolute; color: #130c0c; left: 10px; top: -18px; font-size: 15px;">Pickup Time</label>
+                            <select id="pickup-time" style="width: 100%; height: 50px; border-radius: 5px; border: 2px solid #e5e5e5; padding: 10px; font-size: 14px;">
+                                <option value="08:00">08:00 AM</option>
+                                <option value="09:00">09:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <!-- Add more time options as needed -->
+                            </select>
+                        </div>
+                    
+                        <!-- Drop-off Time Dropdown -->
+                        <div class="time-container" style="position: relative; width: 120px; margin-left: 10px;margin-top: 2%;">
+                            <label for="dropoff-time" class="time-label" style="position: absolute; color: #130c0c; left: 10px; top: -18px; font-size: 15px;">Drop-off Time</label>
+                            <select id="dropoff-time" style="width: 100%; height: 50px; border-radius: 5px; border: 2px solid #e5e5e5; padding: 10px; font-size: 14px;">
+                                <option value="08:00">08:00 AM</option>
+                                <option value="09:00">09:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <!-- Add more time options as needed -->
+                            </select>
+                        </div>
+                    </div>
+                
+                    <!-- Car type dropdown -->
+                   
+                    <!-- Find Car button -->
+                    <div class="bundle-find-line">
+                        
+                            <div class="bundle-options">
+                                <label class="bundle-label"><i class="fas fa-dollar-sign icon"></i> Bundle + Save</label>
+                                <input type="checkbox"> Add a car
+                                <input type="checkbox"> Add a flight
+                            </div>
+                            <button class="find-button"><i class="fas fa-search"></i> Find Your Car</button>
+                        </div>
+                        <p class="note">Book a hotel with free cancellation for flexibility</p>
+                        <hr class="divider">
+                        <p class="offer">Book all of your hotels at once and save up to $625</p>
+                </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+        
+        
+        
+        
+        
+          
+                
+                
+                
+                
+                </div>
+                        <!-- JavaScript to handle form switching -->
+                       
+                
+                
+        
+        
+                
+                 
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+                    
+                          
+                
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</header>
+
+
+        <style>
+            /* Style for the dropdown */
+            .dropdown {
+                position: absolute;
+                top: 50px;
+                left: 0;
+                width: 100%;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                z-index: 100;
+            }
+        
+            .room-controls {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 0;
+            }
+        
+            .room-controls label {
+                flex: 1;
+                font-size: 14px;
+            }
+        
+            .room-controls button {
+                width: 30px;
+                height: 30px;
+                background-color: #0066ff;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        
+            .room-controls span {
+                width: 20px;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        </style>
+        
+        
+        
+      
+        
+        
+
+
+    <style>
+
+/* Form Container */
+.form-container {
+    margin-top: 0px;
+
+    display: flex;
+    justify-content: center;
+  
+}
+
+.container {
+            width: 90%;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            overflow: hidden;
+        }
+        
+        /* Tabs */
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 10px 0;
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .tab.active {
+            color: #0066ff;
+            font-weight: bold;
+            border-bottom: 3px solid #0066ff;
+        }
+        
+        /* Icon Hover Effect */
+        .icon:hover {
+            color: green;
+        }
+        
+        /* Search Box */
+        .search-box {
+            margin-top: 20px;
+            display: flex;
+        }
+        
+        .input-group {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 100%;
+        }
+        
+        .input-group .icon {
+            position: absolute;
+            left: 10px;
+            color: #999;
+        }
+        
+        .input-group input[type="text"] {
+            width: 100%;
+            padding: 10px 10px 10px 30px;
+            border: 2px solid #e5e5e5; /* Change border to 2px for hover effect */
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s; /* Smooth transition */
+        }
+        
+        .input-group input[type="text"]:hover {
+            border-color: #0066ff; /* Change border color on hover */
+        }
+        
+        /* Date and Guest Line */
+        .date-guest-line {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .date-box, .guest-box-wrapper {
+            width: 48%; /* Same width for both date and guest boxes */
+            border: 2px solid #e5e5e5;
+            border-radius: 5px;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            transition: border-color 0.3s; /* Smooth transition */
+        }
+        
+        .date-box .icon, .guest-box .icon {
+            position: absolute;
+            left: 10px;
+            color: red;
+        }
+        
+        .date-box input[type="text"], .guest-box input[type="text"] {
+            width: calc(100% - 40px); /* Adjust width to accommodate the icon */
+            padding: 8px 10px; /* Space for the icon */
+            border: none; /* No border on input */
+            outline: none; /* Remove outline */
+            font-size: 14px;
+        }
+        
+        /* Guest Box */
+        .guest-box {
+            display: flex;
+            align-items: center;
+            flex: 1; /* Allow guest box to flex and take available space */
+            border: none; /* Remove border since it's already in the wrapper */
+        }
+        
+        .guest-box label {
+            padding-left: 30px; /* space for the icon */
+            font-size: 14px;
+            flex: 1;
+        }
+        
+        /* Hover Effect for Date Box */
+        .date-box:hover, .guest-box-wrapper:hover {
+            border-color: #0066ff; /* Change border color on hover */
+        }
+        
+        /* Bundle Find Line */
+        .bundle-find-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .bundle-options {
+            display: flex;
+            align-items: center;
+            background-color: #d4f5c9;
+            padding: 10px;
+            border-radius: 5px;
+            color: #006600;
+            flex: 1;
+            margin-right: 20px; /* Added space between bundle options and button */
+            border: 2px solid #e5e5e5; /* Consistent border style */
+        }
+        
+        .bundle-label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .find-button {
+            flex: 1; /* Make the button flex and take available space */
+            background-color: #0066ff;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .find-button i {
+            margin-right: 5px;
+        }
+        
+        /* Note and Offer Section */
+        .note {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .divider {
+            border: 0;
+            border-top: 1px solid #e5e5e5;
+            margin: 10px 0;
+        }
+        
+        .offer {
+            text-align: center;
+            font-size: 12px;
+            color: #0066ff;
+            font-weight: bold;
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        /* Calendars Styles */
+        .calendars {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .calendar {
+            flex: 1;
+            padding: 10px;
+        }
+        .icon{
+            color: red;
+        }
+                    /* General form section styles */
+                    .form-section {
+                        display: none;
+                    }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+       
+
+
+
+
+
+    </div>
+</header>
+
+<style>
+/* Navbar */
+.navbar {
+   
+    height: 130px;
+    background-color: #201919; /* Change to your desired background color */
+            border: none; /* Remove any borders */
+            padding: 10px 20px; /* Adjust padding as necessary */
+            z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.signin-btn a {
+    color: #fff;
+    background-color: #ff5a5f;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.signin-btn a:hover {
+    background-color: #e04a4a;
+}
+/* Hero Section */
+.hero-section {
+    margin-top: 0;
+   width: 100%;
+    height: 1000px;
+    position: relative;
+    background-image: url('./car.png.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #060303;
+    padding: 120px 20px; /* Add extra padding to accommodate the form without overlap */
+    text-align: center;
+   
+}
+
+.form-content {
+    border-radius: 50px;
+ width:900px;
+margin: 0 auto;
+    
+  
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    /* Car Form Container */
+.car-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+</style>
+
+<main class="main-content">
+
+   
+
+<section class="car-area section-bg section-padding">
+<div class="main-container">
+ <div class="row">
+   <div class="col-lg-12">
+     <div class="section-heading text-center">
+       <h2 class="sec__title">Recommended Car Rentals</h2>
+     </div>
+     <!-- end section-heading -->
+   </div>
+   <!-- end col-lg-12 -->
+ </div>
+ <!-- end row -->
+ <div class="row padding-top-50px">
+   <div class="col-lg-12">
+     <div class="car-wrap">
+       <div class="car-carousel carousel-action owl-loaded owl-carousel">
+         
+         <!-- end card-item -->
+         
+         <!-- end card-item -->
+         
+         <!-- end card-item -->
+         
+         <!-- end card-item -->
+         
+         <!-- end card-item -->
+         
+         <!-- end card-item -->
+       <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-966px, 0px, 0px); transition: all 0s ease 0s; width: 3864px;"><div class="owl-item cloned" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img4.png" alt="car-img">
+             </a>
+             <span class="badge">Bestseller</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Fullsize Van</p>
+             <h3 class="card-title">
+               <a href="">Seat Alhambra or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>6</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>2</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$45.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img5.png" alt="car-img">
+             </a>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Luxury</p>
+             <h3 class="card-title">
+               <a href="">Mercedes E Class or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>5</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>3</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$58.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img6.png" alt="car-img">
+             </a>
+             <span class="badge">featured</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Mini</p>
+             <h3 class="card-title">
+               <a href="">Fiat Fiesta 2 Doors or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$23.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item active" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="" alt="car-img">
+             </a>
+             <span class="badge">Bestseller</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Compact SUV</p>
+             <h3 class="card-title">
+               <a href="">Toyota Corolla or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$23.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item active" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img2.png" alt="car-img">
+             </a>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Standard</p>
+             <h3 class="card-title">
+               <a href="">Volkswagen Jetta 2 Doors or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$33.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item active" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img3.png" alt="car-img">
+             </a>
+             <span class="badge">featured</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Compact Elite</p>
+             <h3 class="card-title">
+               <a href="">Toyota Yaris or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$23.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img4.png" alt="car-img">
+             </a>
+             <span class="badge">Bestseller</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Fullsize Van</p>
+             <h3 class="card-title">
+               <a href="h">Seat Alhambra or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>6</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>2</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$45.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img5.png" alt="car-img">
+             </a>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Luxury</p>
+             <h3 class="card-title">
+               <a href="">Mercedes E Class or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>5</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>3</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$58.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img6.png" alt="car-img">
+             </a>
+             <span class="badge">featured</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Mini</p>
+             <h3 class="card-title">
+               <a href="">Fiat Fiesta 2 Doors or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$23.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img.png" alt="car-img">
+             </a>
+             <span class="badge">Bestseller</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Compact SUV</p>
+             <h3 class="card-title">
+               <a href="">Toyota Corolla or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$23.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/car-img2.png" alt="car-img">
+             </a>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Standard</p>
+             <h3 class="card-title">
+               <a href="">Volkswagen Jetta 2 Doors or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$33.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 292px; margin-right: 30px;"><div class="card-item car-card mb-0">
+           <div class="card-img">
+             <a href="" class="d-block">
+               <img src="" alt="car-img">
+             </a>
+             <span class="badge">featured</span>
+             <div class="add-to-wishlist icon-element" data-bs-toggle="tooltip" data-placement="top" aria-label="Save for later" data-bs-original-title="Save for later">
+               <i class="la la-heart-o"></i>
+             </div>
+           </div>
+           <div class="card-body">
+             <p class="card-meta">Compact Elite</p>
+             <h3 class="card-title">
+               <a href="">Toyota Yaris or Similar</a>
+             </h3>
+             <div class="card-rating">
+               <span class="badge text-white">4.4/5</span>
+               <span class="review__text">Average</span>
+               <span class="rating__text">(30 Reviews)</span>
+             </div>
+             <div class="card-attributes">
+               <ul class="d-flex align-items-center">
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Passenger">
+                   <i class="la la-users"></i><span>4</span>
+                 </li>
+                 <li class="d-flex align-items-center" data-bs-toggle="tooltip" data-placement="top" data-bs-original-title="Luggage">
+                   <i class="la la-suitcase"></i><span>1</span>
+                 </li>
+               </ul>
+             </div>
+             <div class="card-price d-flex align-items-center justify-content-between">
+               <p>
+                 <span class="price__from">From</span>
+                 <span class="price__num">$23.00</span>
+                 <span class="price__text">Per day</span>
+               </p>
+               <a href="" class="btn-text">See details<i class="la la-angle-right"></i></a>
+             </div>
+           </div>
+         </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="la la-angle-left"></i></div><div class="owl-next"><i class="la la-angle-right"></i></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+       <!-- end car-carousel -->
+     </div>
+   </div>
+   <!-- end col-lg-12 -->
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- end row -->
+ </div>
+ <!-- end container -->
+</section>
+<!-- end car-area -->
+<!-- ================================
+END CAR AREA
+================================= -->
+
+<!-- ================================
+  START TESTIMONIAL AREA
+================================= -->
+<section class="testimonial-area section-padding padding-left-100px padding-right-80px">
+ <div class="main-container">
+   <div class="row">
+     <div class="col-lg-4">
+       <div class="section-heading">
+         <h2 class="sec__title line-height-50">
+           What our customers are saying us?
+         </h2>
+         <p class="sec__desc padding-top-30px">
+           Morbi convallis bibendum urna ut viverra. Maecenas quis
+           consequat libero
+         </p>
+         <div class="btn-box padding-top-35px">
+           <a href="" class="theme-btn">Explore All</a>
+         </div>
+       </div>
+       <!-- end section-heading -->
+     </div>
+     <!-- end col-lg-4 -->
+     <div class="col-lg-8">
+       <div class="testimonial-carousel carousel-action owl-loaded owl-carousel">
+         
+         <!-- end testimonial-card -->
+         
+         <!-- end testimonial-card -->
+         
+         <!-- end testimonial-card -->
+         
+         <!-- end testimonial-card -->
+       <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-646px, 0px, 0px); transition: all 0s ease 0s; width: 2584px;"><div class="owl-item cloned" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team10.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Luke Jacobs</h4>
+               <span class="author__meta">Australia</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team8.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Chulbul Panday</h4>
+               <span class="author__meta">Italy</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item active" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team8.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Leroy Bell</h4>
+               <span class="author__meta">United States</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item active" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team9.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Richard Pam</h4>
+               <span class="author__meta">Canada</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team10.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Luke Jacobs</h4>
+               <span class="author__meta">Australia</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team8.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Chulbul Panday</h4>
+               <span class="author__meta">Italy</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team8.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Leroy Bell</h4>
+               <span class="author__meta">United States</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div><div class="owl-item cloned" style="width: 293px; margin-right: 30px;"><div class="testimonial-card">
+           <div class="testi-desc-box">
+             <p class="testi__desc">
+               Excepteur sint occaecat cupidatat non proident sunt in culpa
+               officia deserunt mollit anim laborum sint occaecat cupidatat
+               non proident. Occaecat cupidatat non proident des.
+             </p>
+           </div>
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/team9.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <h4 class="author__title">Richard Pam</h4>
+               <span class="author__meta">Canada</span>
+               <span class="ratings d-flex align-items-center">
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+                 <i class="la la-star"></i>
+               </span>
+             </div>
+           </div>
+         </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="la la-angle-left"></i></div><div class="owl-next"><i class="la la-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+       <!-- end testimonial-carousel -->
+     </div>
+     <!-- end col-lg-8 -->
+   </div>
+   <!-- end row -->
+ </div>
+ <!-- end container -->
+</section>
+<!-- end testimonial-area -->
+<!-- ================================
+  START TESTIMONIAL AREA
+================================= -->
+
+<!-- ================================
+START CTA AREA
+================================= -->
+<section class="cta-area padding-top-100px padding-bottom-180px text-center">
+ <div class="video-bg">
+   <video autoplay="" loop="">
+     <source src="https://techydevs.com/demos/themes/html/trizen-demo/html/video/video-bg.mp4" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
+ </div>
+ <div class="main-container">
+   <div class="row">
+     <div class="col-lg-12">
+       <div class="section-heading">
+         <h2 class="sec__title text-white line-height-55">
+           Let us show you the world <br>
+           Discover our most popular destinations
+         </h2>
+       </div>
+       <!-- end section-heading -->
+       <div class="btn-box padding-top-35px">
+         <a href="" class="theme-btn border-0">Join with us</a>
+       </div>
+     </div>
+     <!-- end col-lg-12 -->
+   </div>
+   <!-- end row -->
+ </div>
+ <!-- end container -->
+ <svg class="cta-svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+   <path d="M-31.31,170.22 C164.50,33.05 334.36,-32.06 547.11,196.88 L500.00,150.00 L0.00,150.00 Z"></path>
+ </svg>
+</section>
+<!-- end cta-area -->
+<!-- ================================
+END CTA AREA
+================================= -->
+
+<!-- ================================
+  START BLOG AREA
+================================= -->
+<section class="blog-area padding-top-30px padding-bottom-90px padding-bottom-30px padding-left-100px">
+ <div class="main-container">
+   <div class="row">
+     <div class="col-lg-12">
+       <div class="section-heading text-center">
+         <h2 class="sec__title line-height-55">
+           Latest News &amp; Articles <br>
+           You Might Like
+         </h2>
+       </div>
+       <!-- end section-heading -->
+     </div>
+     <!-- end col-lg-12 -->
+   </div>
+   <!-- end row -->
+   <div class="row padding-top-50px">
+     <div class="col-lg-4 responsive-column">
+       <div class="card-item blog-card">
+         <div class="card-img">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/blog-img.jpg" alt="blog-img">
+           <div class="post-format icon-element">
+             <i class="la la-photo"></i>
+           </div>
+           <div class="card-body">
+             <div class="post-categories">
+               <a href="" class="badge">Travel</a>
+               <a href="" class="badge">lifestyle</a>
+             </div>
+             <h3 class="card-title line-height-26">
+               <a href="">When Traveling Avoid Expensive Hotels &amp; Resorts</a>
+             </h3>
+             <p class="card-meta">
+               <span class="post__date"> 1 January, 2020</span>
+               <span class="post-dot"></span>
+               <span class="post__time">5 Mins read</span>
+             </p>
+           </div>
+         </div>
+         <div class="card-footer d-flex align-items-center justify-content-between">
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/small-team1.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <a href="" class="author__title">Leroy Bell</a>
+             </div>
+           </div>
+           <div class="post-share">
+             <ul>
+               <li>
+                 <i class="la la-share icon-element"></i>
+                 <ul class="post-share-dropdown d-flex align-items-center">
+                   <li>
+                     <a href=""><i class="lab la-facebook-f"></i></a>
+                   </li>
+                   <li>
+                     <a href=""><i class="lab la-twitter"></i></a>
+                   </li>
+                   <li>
+                     <a href=""><i class="lab la-instagram"></i></a>
+                   </li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <!-- end card-item -->
+     </div>
+     <!-- end col-lg-4 -->
+     <div class="col-lg-4 responsive-column">
+       <div class="card-item blog-card">
+         <div class="card-img">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/blog-img2.jpg" alt="blog-img">
+           <div class="post-format icon-element">
+             <i class="la la-play"></i>
+           </div>
+           <div class="card-body">
+             <div class="post-categories">
+               <a href="" class="badge">Video</a>
+             </div>
+             <h3 class="card-title line-height-26">
+               <a href="">My Best Travel Tips: The Ultimate Travel Guide</a>
+             </h3>
+             <p class="card-meta">
+               <span class="post__date"> 1 February, 2020</span>
+               <span class="post-dot"></span>
+               <span class="post__time">4 Mins read</span>
+             </p>
+           </div>
+         </div>
+         <div class="card-footer d-flex align-items-center justify-content-between">
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/small-team2.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <a href="" class="author__title">Phillip Hunt</a>
+             </div>
+           </div>
+           <div class="post-share">
+             <ul>
+               <li>
+                 <i class="la la-share icon-element"></i>
+                 <ul class="post-share-dropdown d-flex align-items-center">
+                   <li>
+                     <a href=""><i class="lab la-facebook-f"></i></a>
+                   </li>
+                   <li>
+                     <a href=""><i class="lab la-twitter"></i></a>
+                   </li>
+                   <li>
+                     <a href=""><i class="lab la-instagram"></i></a>
+                   </li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <!-- end card-item -->
+     </div>
+     <!-- end col-lg-4 -->
+     <div class="col-lg-4 responsive-column">
+       <div class="card-item blog-card">
+         <div class="card-img">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/blog-img3.jpg" alt="blog-img">
+           <div class="post-format icon-element">
+             <i class="la la-music"></i>
+           </div>
+           <div class="card-body">
+             <div class="post-categories">
+               <a href="" class="badge">audio</a>
+             </div>
+             <h3 class="card-title line-height-26">
+               <a href="">By all Means, Travel to Popular Sites &amp; Don’t Rule Out
+                 Other Locations</a>
+             </h3>
+             <p class="card-meta">
+               <span class="post__date"> 1 March, 2020</span>
+               <span class="post-dot"></span>
+               <span class="post__time">3 Mins read</span>
+             </p>
+           </div>
+         </div>
+         <div class="card-footer d-flex align-items-center justify-content-between">
+           <div class="author-content d-flex align-items-center">
+             <div class="author-img">
+               <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/small-team3.jpg" alt="testimonial image">
+             </div>
+             <div class="author-bio">
+               <a href="" class="author__title">Luke Jacobs</a>
+             </div>
+           </div>
+           <div class="post-share">
+             <ul>
+               <li>
+                 <i class="la la-share icon-element"></i>
+                 <ul class="post-share-dropdown d-flex align-items-center">
+                   <li>
+                     <a href=""><i class="lab la-facebook-f"></i></a>
+                   </li>
+                   <li>
+                     <a href=""><i class="lab la-twitter"></i></a>
+                   </li>
+                   <li>
+                     <a href=""><i class="lab la-instagram"></i></a>
+                   </li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <!-- end card-item -->
+     </div>
+     <!-- end col-lg-4 -->
+   </div>
+   <!-- end row -->
+   <div class="row">
+     <div class="col-lg-12">
+       <div class="btn-box text-center pt-4">
+         <a href="" class="theme-btn">Read More Post</a>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- end container -->
+</section>
+<!-- end blog-area -->
+<!-- ================================
+  START BLOG AREA
+================================= -->
+
+<!-- ================================
+START MOBILE AREA
+================================= -->
+<section class="mobile-app padding-top-100px padding-bottom-50px section-bg padding-left-100px">
+ <div class="main-container">
+   <div class="row">
+     <div class="col-lg-6">
+       <div class="mobile-app-content">
+         <div class="section-heading">
+           <h2 class="sec__title line-height-55">
+             Trizen Android and IOS App is Available!
+           </h2>
+         </div>
+         <!-- end section-heading -->
+         <ul class="info-list padding-top-30px">
+           <li class="d-flex align-items-center mb-3">
+             <span class="la la-check icon-element flex-shrink-0 ms-0"></span>
+             Access and change your itinerary on-the-go
+           </li>
+           <li class="d-flex align-items-center mb-3">
+             <span class="la la-check icon-element flex-shrink-0 ms-0"></span>
+             Free cancellation on select hotels
+           </li>
+           <li class="d-flex align-items-center mb-3">
+             <span class="la la-check icon-element flex-shrink-0 ms-0"></span>
+             Get real-time trip updates
+           </li>
+         </ul>
+         <div class="btn-box padding-top-30px">
+           <a href="" class="d-inline-block me-3">
+             <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/app-store.png" alt="">
+           </a>
+           <a href="" class="d-inline-block">
+             <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/google-play.png" alt="">
+           </a>
+         </div>
+         <!-- end btn-box -->
+       </div>
+     </div>
+     <!-- end col-lg-6 -->
+     <div class="col-lg-6">
+       <div class="mobile-img">
+         <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/mobile-app.png" alt="mobile-img">
+       </div>
+     </div>
+     <!-- end col-lg-5 -->
+   </div>
+   <!-- end row -->
+ </div>
+ <!-- end container -->
+</section>
+<!-- end mobile-app -->
+<!-- ================================
+END MOBILE AREA
+================================= -->
+
+<!-- ================================
+  START CLIENTLOGO AREA
+================================= -->
+<section class="clientlogo-area padding-top-80px padding-bottom-80px text-center">
+ <div class="main-container">
+   <div class="row">
+     <div class="col-lg-12">
+       <div class="client-logo owl-loaded owl-carousel">
+         
+         <!-- end client-logo-item -->
+         
+         <!-- end client-logo-item -->
+         
+         <!-- end client-logo-item -->
+         
+         <!-- end client-logo-item -->
+         
+         <!-- end client-logo-item -->
+         
+         <!-- end client-logo-item -->
+       <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1716px, 0px, 0px); transition: all 0.7s ease 0s; width: 2808px;"><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo.png" alt="brand image">
+         </div></div><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo2.png" alt="brand image">
+         </div></div><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo3.png" alt="brand image">
+         </div></div><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo4.png" alt="brand image">
+         </div></div><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo5.png" alt="brand image">
+         </div></div><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo6.png" alt="brand image">
+         </div></div><div class="owl-item" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo.png" alt="brand image">
+         </div></div><div class="owl-item" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo2.png" alt="brand image">
+         </div></div><div class="owl-item" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo3.png" alt="brand image">
+         </div></div><div class="owl-item" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo4.png" alt="brand image">
+         </div></div><div class="owl-item" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo5.png" alt="brand image">
+         </div></div><div class="owl-item active" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo6.png" alt="brand image">
+         </div></div><div class="owl-item cloned active" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo.png" alt="brand image">
+         </div></div><div class="owl-item cloned active" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo2.png" alt="brand image">
+         </div></div><div class="owl-item cloned active" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo3.png" alt="brand image">
+         </div></div><div class="owl-item cloned active" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo4.png" alt="brand image">
+         </div></div><div class="owl-item cloned active" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo5.png" alt="brand image">
+         </div></div><div class="owl-item cloned" style="width: 156px;"><div class="client-logo-item">
+           <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/client-logo6.png" alt="brand image">
+         </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots disabled"></div></div>
+       <!-- end client-logo -->
+     </div>
+     <!-- end col-lg-12 -->
+   </div>
+   <!-- end row -->
+ </div>
+ <!-- end container -->
+</section>
+<!-- end clientlogo-area -->
+<!-- ================================
+  START CLIENTLOGO AREA
+================================= -->
+
+<!-- ================================
+  START FOOTER AREA
+================================= -->
+<section class="footer-area section-bg padding-top-100px padding-bottom-30px padding-left-80px">
+ <div class="main-container">
+   <div class="row">
+     <div class="col-lg-3 responsive-column">
+       <div class="footer-item">
+        <div class="logo">
+         <img src="logo.png.png">
+
+        </div>
+         <!-- end logo -->
+         <p class="footer__desc">
+           Morbi convallis bibendum urna ut viverra. Maecenas consequat
+         </p>
+         <ul class="list-items pt-3">
+           <li>
+             3015 Grand Ave, Coconut Grove,<br>
+             Cerrick Way, FL 12345
+           </li>
+           <li>+123-456-789</li>
+           <li><a href="">trizen@yourwebsite.com</a></li>
+         </ul>
+       </div>
+       <!-- end footer-item -->
+     </div>
+     <!-- end col-lg-3 -->
+     <div class="col-lg-3 responsive-column">
+       <div class="footer-item">
+         <h4 class="title curve-shape pb-3 margin-bottom-20px" data-text="curvs">
+           Company
+         </h4>
+         <ul class="list-items list--items">
+           <li><a href="">About us</a></li>
+           <li><a href="">Services</a></li>
+           <li><a href="">Jobs</a></li>
+           <li><a href="">News</a></li>
+           <li><a href="">Support</a></li>
+           <li><a href="">Advertising</a></li>
+         </ul>
+       </div>
+       <!-- end footer-item -->
+     </div>
+     <!-- end col-lg-3 -->
+     <div class="col-lg-3 responsive-column">
+       <div class="footer-item">
+         <h4 class="title curve-shape pb-3 margin-bottom-20px" data-text="curvs">
+           Other Links
+         </h4>
+         <ul class="list-items list--items">
+           <li><a href="">USA Vacation Packages</a></li>
+           <li><a href="">USA Flights</a></li>
+           <li><a href="">USA Hotels</a></li>
+           <li><a href="">USA Car Hire</a></li>
+           <li><a href="">Create an Account</a></li>
+           <li><a href="">Trizen Reviews</a></li>
+         </ul>
+       </div>
+       <!-- end footer-item -->
+     </div>
+     <!-- end col-lg-3 -->
+     <div class="col-lg-3 responsive-column">
+       <div class="footer-item">
+         <h4 class="title curve-shape pb-3 margin-bottom-20px" data-text="curvs">
+           Subscribe now
+         </h4>
+         <p class="footer__desc pb-3">
+           Subscribe for latest updates &amp; promotions
+         </p>
+         <div class="contact-form-action">
+           <form action="">
+             <div class="input-box">
+               <label class="label-text">Enter email address</label>
+               <div class="form-group mb-0">
+                 <span class="la la-envelope form-icon"></span>
+                 <input class="form-control" type="email" name="email" placeholder="Email address">
+                 <button class="theme-btn theme-btn-small submit-btn" type="submit">
+                   Go
+                 </button>
+                 <span class="font-size-14 pt-1"><i class="la la-lock me-1"></i>Your information is safe
+                   with us.</span>
+               </div>
+             </div>
+           </form>
+         </div>
+       </div>
+       <!-- end footer-item -->
+     </div>
+     <!-- end col-lg-3 -->
+   </div>
+   <!-- end row -->
+   <div class="row align-items-center">
+     <div class="col-lg-8">
+       <div class="term-box footer-item">
+         <ul class="list-items list--items d-flex align-items-center">
+           <li><a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#">Terms &amp; Conditions</a></li>
+           <li><a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#">Privacy Policy</a></li>
+           <li><a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#">Help Center</a></li>
+         </ul>
+       </div>
+     </div>
+     <!-- end col-lg-8 -->
+     <div class="col-lg-4">
+       <div class="footer-social-box text-end">
+         <ul class="social-profile">
+           <li>
+             <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#"><i class="lab la-facebook-f"></i></a>
+           </li>
+           <li>
+             <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#"><i class="lab la-twitter"></i></a>
+           </li>
+           <li>
+             <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#"><i class="lab la-instagram"></i></a>
+           </li>
+           <li>
+             <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#"><i class="lab la-linkedin-in"></i></a>
+           </li>
+         </ul>
+       </div>
+     </div>
+     <!-- end col-lg-4 -->
+   </div>
+   <!-- end row -->
+ </div>
+ <!-- end container -->
+ <div class="section-block mt-4"></div>
+ <div class="main-container">
+   <div class="row align-items-center">
+     <div class="col-lg-7">
+       <div class="copy-right padding-top-30px">
+         <p class="copy__desc">
+           © Copyright Trizen <span id="get-year">2024</span> . Made with
+           <span class="la la-heart"></span> by
+           <a href="https://themeforest.net/user/techydevs/portfolio">TechyDevs</a>
+         </p>
+       </div>
+       <!-- end copy-right -->
+     </div>
+     <!-- end col-lg-7 -->
+     <div class="col-lg-5">
+       <div class="copy-right-content d-flex align-items-center justify-content-end padding-top-30px">
+         <h3 class="title font-size-15 pe-2">We Accept</h3>
+         <img src="https://techydevs.com/demos/themes/html/trizen-demo/html/images/payment-img.png" alt="">
+       </div>
+       <!-- end copy-right-content -->
+     </div>
+     <!-- end col-lg-5 -->
+   </div>
+   <!-- end row -->
+ </div>
+ <!-- end container -->
+</section>
+<!-- end footer-area -->
+<!-- ================================
+  START FOOTER AREA
+================================= -->
+
+<!-- start back-to-top -->
+<div id="back-to-top">
+ <i class="la la-angle-up" title="Go top"></i>
+</div>
+<!-- end back-to-top -->
+
+<!-- end modal-shared -->
+<div class="modal-popup">
+ <div class="modal fade" id="signupPopupForm" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <div>
+           <h5 class="modal-title title" id="exampleModalLongTitle">
+             Sign Up
+           </h5>
+           <p class="font-size-14">Hello! Welcome Create a New Account</p>
+         </div>
+         <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true" class="la la-close"></span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <div class="contact-form-action">
+           <form method="post">
+             <div class="input-box">
+               <label class="label-text">Username</label>
+               <div class="form-group">
+                 <span class="la la-user form-icon"></span>
+                 <input class="form-control" type="text" name="text" placeholder="Type your username">
+               </div>
+             </div>
+             <!-- end input-box -->
+             <div class="input-box">
+               <label class="label-text">Email Address</label>
+               <div class="form-group">
+                 <span class="la la-envelope form-icon"></span>
+                 <input class="form-control" type="text" name="text" placeholder="Type your email">
+               </div>
+             </div>
+             <!-- end input-box -->
+             <div class="input-box">
+               <label class="label-text">Password</label>
+               <div class="form-group">
+                 <span class="la la-lock form-icon"></span>
+                 <input class="form-control" type="text" name="text" placeholder="Type password">
+               </div>
+             </div>
+             <!-- end input-box -->
+             <div class="input-box">
+               <label class="label-text">Repeat Password</label>
+               <div class="form-group">
+                 <span class="la la-lock form-icon"></span>
+                 <input class="form-control" type="text" name="text" placeholder="Type again password">
+               </div>
+             </div>
+             <!-- end input-box -->
+             <div class="btn-box pt-3 pb-4">
+               <button type="button" class="theme-btn w-100">
+                 Register Account
+               </button>
+             </div>
+             <div class="action-box text-center">
+               <p class="font-size-14">Or Sign up Using</p>
+               <ul class="social-profile py-3">
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-5 text-white"><i class="lab la-facebook-f"></i></a>
+                 </li>
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-6 text-white"><i class="lab la-twitter"></i></a>
+                 </li>
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-7 text-white"><i class="lab la-instagram"></i></a>
+                 </li>
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-5 text-white"><i class="lab la-linkedin-in"></i></a>
+                 </li>
+               </ul>
+             </div>
+           </form>
+         </div>
+         <!-- end contact-form-action -->
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+<!-- end modal-popup -->
+
+<!-- end modal-shared -->
+<div class="modal-popup">
+ <div class="modal fade" id="loginPopupForm" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <div>
+           <h5 class="modal-title title" id="exampleModalLongTitle2">
+             Login
+           </h5>
+           <p class="font-size-14">Hello! Welcome to your account</p>
+         </div>
+         <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true" class="la la-close"></span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <div class="contact-form-action">
+           <form method="post">
+             <div class="input-box">
+               <label class="label-text">Username</label>
+               <div class="form-group">
+                 <span class="la la-user form-icon"></span>
+                 <input class="form-control" type="text" name="text" placeholder="Type your username">
+               </div>
+             </div>
+             <!-- end input-box -->
+             <div class="input-box">
+               <label class="label-text">Password</label>
+               <div class="form-group mb-2">
+                 <span class="la la-lock form-icon"></span>
+                 <input class="form-control" type="text" name="text" placeholder="Type your password">
+               </div>
+               <div class="d-flex align-items-center justify-content-between">
+                 <div class="custom-checkbox mb-0">
+                   <input type="checkbox" class="form-check-input" id="rememberchb">
+                   <label for="rememberchb">Remember me</label>
+                 </div>
+                 <p class="forgot-password">
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/recover.html">Forgot Password?</a>
+                 </p>
+               </div>
+             </div>
+             <!-- end input-box -->
+             <div class="btn-box pt-3 pb-4">
+               <button type="button" class="theme-btn w-100">
+                 Login Account
+               </button>
+             </div>
+             <div class="action-box text-center">
+               <p class="font-size-14">Or Login Using</p>
+               <ul class="social-profile py-3">
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-5 text-white"><i class="lab la-facebook-f"></i></a>
+                 </li>
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-6 text-white"><i class="lab la-twitter"></i></a>
+                 </li>
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-7 text-white"><i class="lab la-instagram"></i></a>
+                 </li>
+                 <li>
+                   <a href="https://techydevs.com/demos/themes/html/trizen-demo/html/index.html#" class="bg-5 text-white"><i class="lab la-linkedin-in"></i></a>
+                 </li>
+               </ul>
+             </div>
+           </form>
+         </div>
+         <!-- end contact-form-action -->
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+<!-- end modal-popup -->
+
+<!-- Template JS Files -->
+
+<div class="daterangepicker ltr show-calendar opensright"><div class="ranges"></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr show-calendar opensright"><div class="ranges"></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr show-calendar opensright"><div class="ranges"></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr show-calendar opensright"><div class="ranges"></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr show-calendar opensright"><div class="ranges"></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="daterangepicker ltr single auto-apply opensright"><div class="ranges"></div><div class="drp-calendar left single" style="display: block;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right" style="display: none;"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div></body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/select2.min.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/line-awesome.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/daterangepicker.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/animate.min.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/animated-headline.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/jquery-ui.css">
+    <link rel="stylesheet" href="https://techydevs.com/demos/themes/html/trizen-demo/html/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Overlay */
+        .hero-section::before {
+            opacity: .6;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(82, 97, 102, 0.5);
+            z-index: 1;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+     /* Navbar */
+     .navbar {
+   
+   height: 130px;
+   background-color: #201919; /* Change to your desired background color */
+           border: none; /* Remove any borders */
+           padding: 10px 20px; /* Adjust padding as necessary */
+           z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navdiv {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.logo img {
+   width: 150px;
+   height: auto;
+}
+
+.nav-links {
+   list-style: none;
+   display: flex;
+   gap: 15px;
+}
+
+.nav-links li {
+   display: inline;
+}
+
+.nav-links a {
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   padding: 10px 15px;
+   transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+   background-color: #555;
+   border-radius: 5px;
+}
+
+.signin-btn a {
+   color: #fff;
+   background-color: #ff5a5f;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+.signin-btn a:hover {
+   background-color: #e04a4a;
+}
+.btn{
+    background-color: red;
+    color: #ffffff;
+}
+     
+       
+        /* Hero Section with Background Overlay */
+        .hero-section {
+            color: #000;
+            position: relative;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(218, 26, 26);
+            background-image: url('./curise.png.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            animation: animate 30s ease-in-out infinite alternate-reverse;
+            margin-top: 0px; /* Offset for fixed navbar */
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+
+        <div class="navdiv">
+            <div class="logo">
+                <img src="logo.png.png" alt="Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Hotel</a></li>
+                <li><a href="./carlatest.html">Cars</a></li>
+                <li><a href="./flightlatest.html">Flights</a></li>
+                <li><a href="">Bundle+Save</a></li>
+                <li><a href="">Cruises</a></li>
+                <li><a href="">Experiences</a></li>
+            </ul>
+            <button class="signin-btn"><a href="#">Sign In</a></button>
+        </div>
+    </div>
+
+
+<!-- Hero Section -->
+<header class="hero-section"></header>
+
+
+     
+
+
+
+<!-- Main Content -->
+<main class="main-content">
+    <!-- Your content goes here -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .containel {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .booking-form, .flight-summary {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .booking-form {
+            width: 60%;
+            margin-top: 20px; /* Adjust this value to increase/decrease the space above the form */
+        }
+
+        .flight-summary {
+            width: 35%;
+            padding-top: 0;
+            margin-top: 20px; /* Add margin for separation from the booking form */
+        }
+
+        h2, h3, h4 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .form-group {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .input-group {
+            flex: 1;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"], select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .checkbox {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .payment-options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .payment-option {
+            flex: 1;
+            text-align: center;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .payment-option.selected {
+            border-color: #007bff;
+            background-color: #e0f0ff;
+        }
+
+        .payment-option img {
+            max-width: 100px;
+        }
+
+        .flight-summary img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            background-color: #ffcc00;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .confirm-booking {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #a81616;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .confirm-booking:hover {
+            background-color: #0056b3;
+        }
+
+        .card-info-group {
+            margin-top: 20px; /* Adjust this value to increase/decrease the space above card fields */
+        }
+
+        .flight-details {
+            margin-top: 10px; /* Margin for additional details in flight summary */
+        }
+
+        .flight-details p {
+            margin-bottom: 5px; /* Spacing between detail paragraphs */
+        }
+    </style>
+</head>
+<body>
+
+<div class="containel">
+    <!-- Booking Form -->
+    <div class="booking-form">
+        <h3 style="color: #000;font-weight: bold;font-size: large;">Your Information</h3>
+        <div class="form-group">
+            <div class="input-group">
+                <input type="text" placeholder="First name">
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Last name">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <input type="email" placeholder="Email address">
+            </div>
+            <div class="input-group">
+                <input type="tel" placeholder="Phone Number">
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Address line">
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <select>
+                    <option>Select country</option>
+                    <!-- Add country options here -->
+                    <option>Abelia</option>
+                    <option>Island</option>
+                    <option>Afganistan</option>
+                    <option>Agerbia</option>
+                    <option>Belize</option>
+                     <option>Butan</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <select>
+                    <option>Select country code</option>
+                    <!-- Add country code options here -->
+                    <option>united-state(+1)</option>
+                    <option>united-kingdom(+44)</option>
+                    <option>Bangladesh(+880)</option>
+                    <option>Brazil(+55)</option>
+                    <option>india(+91)</option>
+                     <option>Pakistan(+92)</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group checkbox">
+            <input type="checkbox" id="promo-offers">
+            <label for="promo-offers">I want to receive Trizen promotional offers in the future</label>
+        </div>
+
+        <h4 style="color: #000;font-weight: bold;font-size: large;">Your Card Information</h4>
+        
+
+        <!-- New Cardholder and Card Number Fields -->
+      
+
+        <div class="payment-form">
+           
+            <div class="payment-options">
+                <div class="payment-option" onclick="showFields('credit')">
+                    <img src="./visa.png.png" alt="Credit Card" />
+                    <p>Payment with credit card</p>
+                </div>
+                <div class="payment-option active" onclick="showFields('paypal')" style="margin-left: 50px;">
+                    <img src="./pay.png.png" alt="PayPal" />
+                    <p>Payment with PayPal</p>
+                </div>
+                <div class="payment-option" onclick="showFields('payoneer')" style="margin-left: 50px;">
+                    <img src="./visa.png.png" alt="Payoneer" />
+                    <p>Payment with Payoneer</p>
+                </div>
+            </div>
+    
+            <!-- PayPal form fields, displayed by default -->
+            <div id="paypal-fields" class="form-fields active">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" placeholder="Cardholder Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <select>
+                            <option>Expiry Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <!-- Add expiry month options here -->
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select>
+                            <option>Expiry Year</option>
+                            <!-- Add expiry year options here -->
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="CVV">
+                    </div>
+                </div>
+                <button class="login-btn"style='margin-right: 500px;width: 150px;'>Confirm Booking</button>
+
+            </div>
+    
+            <!-- Payoneer form fields -->
+            <div id="payoneer-fields" class="form-fields">
+                <div class="input-group">
+                    <div class="input-group">
+                        <input type="email" placeholder="Email address">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter Password">
+                    </div>
+                </div>
+                <button class="login-btn"style='margin-right: 500px;width: 150px;'>Login Account</button>
+            </div>
+    
+            <!-- Credit card form fields -->
+            <div id="credit-fields" class="form-fields">
+                <div class="input-group">
+                    <div class="input-group">
+                        <input type="email" placeholder="Email address">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter password">
+                    </div>
+                </div>
+                <button class="login-btn"style='width: 150px;margin-right: 500px;'>Login Account</button>
+            </div>
+       
+    
+                   
+                  
+                </div>
+    </div>
+
+    <!-- Flight Summary -->
+    <div class="flight-summary">
+        <img src="./curiselast.png.png" alt="Flight Image">
+        <h4 style="color: #000;font-weight: bold;font-size: large;">5 Night Barcoda Curise</h4>
+        <p>purenata Vallarta,mexico</p>
+        <p><span class="rating">4.4/5</span> Average (30 Reviews)</p>
+<br>
+        <h5 style="color: #000;font-size: large;font-weight: bold;">Departing</h5>
+        <p>12 May 2020 7:40am</p>
+        <p style="margin-bottom: 10px;">12hrs 40 min</p>
+
+        <h5 style="color: #000;font-size: large;font-weight: bold;">Returning</h5>
+        <p style="margin-bottom: 10px;">13 May 2020 8:40am</p>
+
+        <h5 style="color: #000;font-size: large;font-weight: bold;">Order Details</h5>
+        <p>Curise : MSC curise</p>
+        <p>Cabin class: suite Grand</p>
+    </br>
+        <!-- Additional Details Section -->
+        <div class="flight-details">
+            <h6 style="color: #000;font-size: large;font-weight: bold;">Additional Details</h6>
+            <p>SubTotal: $240</p>
+            <p>Best Offer:1005</p>
+            <p>Good Experience: yes</p>
+            <p>No Drawback</p>
+            <p></p>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="footer-area section-bg padding-top-100px padding-bottom-30px padding-left-100px">
+    <div class="main-container">
+      <div class="row">
+        <div class="col-lg-3 responsive-column">
+          <div class="footer-item">
+           <div class="logo">
+            <img src="logo.png.png">
+
+           </div>
+            <!-- end logo -->
+            <p class="footer__desc">
+              Morbi convallis bibendum urna ut viverra. Maecenas consequat
+            </p>
+            <ul class="list-items pt-3">
+              <li>
+                3015 Grand Ave, Coconut Grove,<br>
+                Cerrick Way, FL 12345
+              </li>
+              <li>+123-456-789</li>
+              <li><a href="">trizen@yourwebsite.com</a></li>
+            </ul>
+          </div>
+          <!-- end footer-item -->
+        </div>
+        <!-- end col-lg-3 -->
+        <div class="col-lg-3 responsive-column">
+          <div class="footer-item">
+            <h4 class="title curve-shape pb-3 margin-bottom-20px" data-text="curvs">
+              Company
+            </h4>
+            <ul class="list-items list--items">
+              <li><a href="">About us</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Advertising</a></li>
+            </ul>
+          </div>
+          <!-- end footer-item -->
+        </div>
+        <!-- end col-lg-3 -->
+        <div class="col-lg-3 responsive-column">
+          <div class="footer-item">
+            <h4 class="title curve-shape pb-3 margin-bottom-20px" data-text="curvs">
+              Other Links
+            </h4>
+            <ul class="list-items list--items">
+              <li><a href="">USA Vacation Packages</a></li>
+              <li><a href="">USA Flights</a></li>
+              <li><a href="">USA Hotels</a></li>
+              <li><a href="">USA Car Hire</a></li>
+              <li><a href="">Create an Account</a></li>
+              <li><a href="">Trizen Reviews</a></li>
+            </ul>
+          </div>
+          <!-- end footer-item -->
+        </div>
+        <!-- end col-lg-3 -->
+        <div class="col-lg-3 responsive-column">
+          <div class="footer-item">
+            <h4 class="title curve-shape pb-3 margin-bottom-20px" data-text="curvs">
+              Subscribe now
+            </h4>
+            <p class="footer__desc pb-3">
+              Subscribe for latest updates &amp; promotions
+            </p>
+            <div class="contact-form-action">
+              <form action="">
+                <div class="input-box">
+                  <label class="label-text">Enter email address</label>
+                  <div class="form-group mb-0">
+                    <span class="la la-envelope form-icon"></span>
+                    <input class="form-control" type="email" name="email" placeholder="Email address">
+                    <button class="theme-btn theme-btn-small submit-btn" type="submit">
+                      Go
+                    </button>
+                  
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- end footer-item -->
+        </div>
+        <!-- end col-lg-3 -->
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+<style>
+    .payment-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 700px;
+            text-align: center;
+        }
+
+        .payment-options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .payment-option {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+            text-align: center;
+        }
+
+        .payment-option.active {
+            border-color: #007bff;
+            background-color: #e6f0ff;
+        }
+
+        .form-fields {
+            display: none;
+        }
+
+        .form-fields.active {
+            display: block;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .input-field {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+       
+</style>
+
+
+<script>
+     function showFields(option) {
+            // Remove active class from all options
+            document.querySelectorAll('.payment-option').forEach(opt => opt.classList.remove('active'));
+
+            // Hide all form fields
+            document.querySelectorAll('.form-fields').forEach(fields => fields.classList.remove('active'));
+
+            // Show the selected form fields and add active class to the selected option
+            document.getElementById(option + '-fields').classList.add('active');
+            document.querySelector(`[onclick="showFields('${option}')"]`).classList.add('active');
+        }
+</script>
+
+
+
+</body>
+</html>
